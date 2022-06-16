@@ -21,11 +21,10 @@ fn main() -> Result<()> {
                     line.trim()
                         .split_whitespace()
                         .next()
-                        .map(|l| l.trim_matches('*').to_string())
+                        .map(|l| l.trim_matches('*').to_owned())
                 }
             })
             .collect();
-        println!("{:?}", a);
         if BTreeSet::from_iter(std::env::args().skip(1)) == a {
             println!("PASS");
         } else {
