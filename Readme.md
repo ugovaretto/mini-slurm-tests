@@ -1,4 +1,4 @@
-# Slurm tests
+# *Slurm* tests
 
 Minimal set of *Slurm* tests showing how to use *Python*'s and *Rust*'s *subprocess* module to interact with *Slurm*.
 

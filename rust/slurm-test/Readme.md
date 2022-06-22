@@ -1,4 +1,4 @@
-# Minimal set of Slurm tests implemented in *Rust*
+# Minimal set of *Slurm* tests implemented in *Rust*
 
 The *subprocess* module is used to interact with `salloc` and the other *Slurm* executables.
 
